@@ -1,0 +1,11 @@
+.root{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: repeat(3, 1fr);
+}
+.root p {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
